@@ -1,0 +1,29 @@
+/* pictures ing dir */
+img
+{
+	border-radius: 15px;
+	width: 350px;
+	border:2px solid black;
+}
+
+section
+{
+	border: 1px solid gray;
+	padding: 5%;
+}
+
+.ing .dir 
+
+{
+	float: left;
+	width: 40%;
+}
+
+h1,h2,h3,h4,h5,h6 
+{
+	text-shadow: 1px 1px 5px #999999;
+}
+
+body {
+	background: #ccc;
+}
