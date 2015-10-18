@@ -4,19 +4,28 @@ img
 	border-radius: 15px;
 	width: 350px;
 	border:2px solid black;
+	box-shadow: 15px 20px 10px #888888;
+	background: #CCCCCC;
+	transition: background-color 2s, transform 2s;
 }
+
+img:hover
+{
+	border-color: red;
+	transform: rotate(5deg);
+}
+
 
 section
 {
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 	padding: 5%;
 }
 
-.ing .dir 
-
+.ing, .dir 
 {
 	float: left;
-	width: 40%;
+	width: 39%;
 }
 
 h1,h2,h3,h4,h5,h6 
