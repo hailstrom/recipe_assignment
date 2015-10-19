@@ -19,6 +19,26 @@ $(document).ready(function()
 
 	});
 
+	var hidden = false;
+
+	$("#hide_photo").on("click", function()
+	{
+		if (hidden)
+		{
+			$(".pictures img").show();
+			hidden = false;
+		}		
+		else
+		{
+		
+			$(".pictures img").hide();
+
+			hidden = true;
+		}
+
+	});
+
+
 });
 
 
