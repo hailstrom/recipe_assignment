@@ -36,3 +36,20 @@ h1,h2,h3,h4,h5,h6
 body {
 	background: #ccc;
 }
+
+h1
+{
+	font-family : Garamond;
+}
+
+h1:first-letter
+{
+	font-size: 200%;
+	color: #8A2BE2;
+}
+
+.strike   
+{ 
+	text-decoration: line-through;
+}
+    
